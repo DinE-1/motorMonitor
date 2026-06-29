@@ -5,7 +5,7 @@ import time
 
 gsm = serial.Serial('/dev/serial0', 9600, timeout=1)
 
-PHONE = "+91xxxxxxxxxx"
+PHONE = "+XXxxxxxxxxxx"
 
 def send_sms(state):
 
